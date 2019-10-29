@@ -1,0 +1,10 @@
+n = input()
+for i in range(n):  # using -for- loop for print star  
+  print(i*'x')
+
+for i in range(n-1):   #using -for- loop for print star
+  print(i*'*')
+  
+  
+  
+  
