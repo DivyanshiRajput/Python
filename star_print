@@ -1,9 +1,10 @@
-n = input()
-for i in range(n):  # using -for- loop for print star  
-  print(i*'x')
+n = int(input())         # input 
+a = 1                    # starting point is a = 1
+for i in range(n,0,-1):  # using -for- loop for print star  of character '*' 
+  print(' '*i + a*'*')   # using print function to print a specific matter 
+  a = a + 2              # increasing the flag 
 
-for i in range(n-1):   #using -for- loop for print star
-  print(i*'*')
+
   
   
   
