@@ -1,9 +1,9 @@
 def factorial(n):
 ## Your code - begin
-    if (n==0): #base case.
+    if (n == 0): #base case.
         return 1
     else:
-        return n*factorial(n-1) #recursive function for calculating factorial.
+        return  n * factorial( n-1 ) #recursive function for calculating factorial.
 ## Your code - end
 
 if __name__ == "__main__":
