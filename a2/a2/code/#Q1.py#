@@ -1,0 +1,7 @@
+from Q1input import *
+
+# Your code - begin
+output = "" # Your answer should be placed in this variable.
+# Your code - end
+
+print output

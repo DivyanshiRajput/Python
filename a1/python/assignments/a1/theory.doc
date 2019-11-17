@@ -1,0 +1,54 @@
+Q1. My name is Divyanshi.
+
+Q2.
+(a).Interpreter-An Interpreter directly executes instructions written in a programming or 			scripting language without previously converting them to an object code or machine 			code. Examples of interpreted languages are Perl, Python and Matlab
+    Compiler- A compiler takes entire program and converts it into object code which is typically 		      stored in a file. The object code is also refereed as binary code and can be 		      directly executed by the machine after linking. Examples of compiled programming 		      languages are C and C++.
+(b). Python- Variables are not declared.
+             It is an interpreted language.
+             There is a large library of built-in functions in python
+             It is easy to learn, write and read python programs than C.
+             Python programs are saved by .py extension
+     C- Variables are declared.
+        It is a compiled language.
+        There are a limited number of built-in functions in C.
+   	Syntax of C is harder than python.
+        Programs are saved by .c extension
+    
+Q3.
+>>> a=10
+>>> type (a)
+<type 'int'>
+>>> b= 4
+>>> type (b)
+<type 'int'>
+>>> c= 3.4
+>>> type (c)
+<type 'float'>
+>>> d= a/10
+>>> d
+1
+>>> type (d)
+<type 'int'>
+>>> e= b*c
+>>> e
+13.6
+>>> type (e)
+<type 'float'>
+>>> a= a*e
+>>> a
+136.0
+>>> type (a)
+<type 'float'>
+>>> s= "IIITB"
+>>> type (s)
+<type 'str'>
+>>> t= a + s
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+>>> type (t)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 't' is not defined
+>>> 
+

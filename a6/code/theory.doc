@@ -1,0 +1,18 @@
+CLASS:Class is a set or category of things having some property or attribute in common and  differentiated from others by kind, type, or quality. In technical terms we can say that class is a blue print for individual objects with exact behaviour.
+
+OBJECTS: Object is one of instances of the class. which can perform the functionalities which are defined in the class.
+
+METHODS: A Python method is a label that you can call on an object; it is a piece of code to execute on that object. It is like a Python function, but it must be called on an object.
+
+ATTRIBUTES: attribute is a variable or function that belongs to a particular class.
+
+1. CONSTRUCTOR: Constructors are generally used for instantiating an object.The task of constructors is to initialize(assign values) to the data members of the class when an object of class is created.In Python the __init__() method is called the constructor and is always called when an object is created.
+
+2. SELF KEYWORD: Self represents the instance of the class. By using the "self" keyword we can access the attributes and methods of the class in python.
+
+3. STATIC ATTRIBUTES: In python any variable declared within a class is a static variable. It is used for assigning values to the arguments used within the class in instance methods for various purposes.  
+
+
+4. STATIC ATTRIBUTES in Python:In python any variable declared within a class is a static variable. It is used for assigning values to the arguments used within the class in instance methods for various purposes.
+   STATIC VARIABLES in C: A static variable in C preserves its value even if it goes out of scope. 
+
